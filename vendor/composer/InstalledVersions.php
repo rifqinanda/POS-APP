@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '73034329a97792598f9f9633859a256f6163367e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -473,12 +473,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '73034329a97792598f9f9633859a256f6163367e',
     ),
     'laravel/sail' => 
     array (
@@ -491,12 +491,12 @@ private static $installed = array (
     ),
     'laravel/sanctum' => 
     array (
-      'pretty_version' => 'v2.14.1',
-      'version' => '2.14.1.0',
+      'pretty_version' => 'v2.15.0',
+      'version' => '2.15.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '89937617fa144ddb759a740861a47c4f2fd2245b',
+      'reference' => '5be160413b6f37dcf8758663edeab12d0e806f56',
     ),
     'laravel/serializable-closure' => 
     array (

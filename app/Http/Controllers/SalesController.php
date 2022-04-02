@@ -43,12 +43,9 @@ class SalesController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            // 'nama_produk' => ['required', 'string', 'max:255', 'unique:products,nama_produk'],
             'id_produk' => ['required'],
             'total_item' => ['required'],
-            // 'total_harga' => ['required'],
             'diskon' => ['required'],
-            // 'total_bayar' => ['required'],
         ]);
 
             // $harga = $sales->total_item * $products->harga_jual;
@@ -58,9 +55,7 @@ class SalesController extends Controller
         $sales = Sales::create([
             'id_produk' => $request->id_produk,
             'total_item' => $request->total_item,
-            // 'total_harga' => $request->total_harga,
             'diskon' => $request->diskon,
-            // 'total_bayar' => $request->total_bayar,
         ]);
         
 
